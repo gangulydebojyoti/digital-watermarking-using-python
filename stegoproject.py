@@ -1,7 +1,7 @@
 import Image
 from math import *
 def encrypt():
-    im1=Image.open("7.jpg")
+    im1=Image.open("1.jpg")
     im2=im1.size
     pix=im1.load()
     abc=floor((im2[0]*im2[1])/(2*(im2[0]+im2[1])))
